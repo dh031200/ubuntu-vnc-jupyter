@@ -14,8 +14,11 @@ docker run -d -p 25901:5901 -p 9501:8888 --name dev --ipc=host --gpus all --priv
 # CONTAINER ID   IMAGE                                 COMMAND                  CREATED             STATUS                    PORTS                                               NAMES
 # 74945c7f67dd   ubuntu_vnc:wsl2                       "/start.sh"              About an hour ago   Up About an hour          0.0.0.0:25901->5901/tcp, 0.0.0.0:9501->8888/tcp     dev
 ```
-  
-  
+   
+### JupyterLab URL   
+For example: http://localhost:9501/   
+Password : root
+   
 ### Connect VNC
 > You can use any VNC viewer   
 > Use RealVNC for following example : https://www.realvnc.com/en/connect/download/viewer/   
