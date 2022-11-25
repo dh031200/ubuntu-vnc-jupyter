@@ -1,5 +1,16 @@
 # Ubuntu-VNC-Jupyter  
-docker image for ubuntu with VNC & JupyterLab  
+Ubuntu Docker image with VNC & JupyterLab.   
+It's convenient to use as a pre-configured environment.   
+Just download image and run it!
+
+### Container Environment   
++ Ubuntu 22.04.1 LTS
++ Xfce 4.16
++ TigerVNC 1.12.0
++ Miniconda 22.9.0
++ JupyterLab 3.4.7 
++ Simple kernel connector
+
    
 ### For Windows wsl2   
 Download docker image: [GoogleDrive](https://drive.google.com/file/d/133tIwrNBrx5wNwVRdL5n2RJqEXBeC2Vo/view?usp=share_link)   
