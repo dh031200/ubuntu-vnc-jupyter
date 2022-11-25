@@ -68,12 +68,19 @@ connect_kernel test  # Usage: connect_kernel <Conda env name>
 ```  
 
 You can see new kernel in JupyterLab   
-![JUPYTER_EXAMPLE_3](/assets/jupyter-3.png)   
+<p align="center">
+ <img src = "/assets/jupyter-3.png">
+</p> 
 
 
 This command is also available in the JupyterLab   
 Launcher -> Terminal -> Type 'su' command -> Same as above   
-
 <p align="center">
  <img src = "/assets/jupyter-2_short.png">
 </p>
+   
+--------   
+TODO     
+- [x] Document --- Keep updating..
+- [X] Image for wsl  --- Done!
+- [ ] Image for plain ubuntu  --- In progress..
