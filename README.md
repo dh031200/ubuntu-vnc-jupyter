@@ -145,7 +145,7 @@ Please set your Password for jupyterlab using the token above.
 ### JupyterLab URL   
 > For example: http://localhost:3131/   
 > 
-> Change password from here
+> Change password from here   
 > ![Jupyer_password](/assets/jupyter_password.png)
    
 ### Connect VNC
