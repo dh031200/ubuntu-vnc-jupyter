@@ -204,7 +204,7 @@ You can see new kernel in JupyterLab
 
 
 This command is also available in the JupyterLab   
-Launcher -> Terminal -> Type 'su <username>' command -> Same as above   
+Launcher -> Terminal -> Type `su <username>` command -> Same as above   
 <p align="center">
  <img src = "/assets/jupyter-2_short.png">
 </p>
