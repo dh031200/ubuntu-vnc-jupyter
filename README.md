@@ -20,7 +20,7 @@ docker load -i ubuntu-vnc-jupyter-wsl2.tar
 # ubuntu_vnc                    wsl2              472080eae2ad   About an hour ago   2.39GB
 
 # docker run -d -p <VNC_PORT>:5901 -p <JUPYERLAB_PORT>:8888 --name <NAME> --ipc=host --gpus all --privileged -v <DIR>:<DIR> ubuntu_vnc:wsl2 /start.sh && bash
-docker run -d -p 25901:5901 -p 9501:8888 --name dev --ipc=host --gpus all --privileged -v /mnt/d/Dev:/workspace ubuntu_vnc:wsl /start.sh && bash
+docker run -d -p 25901:5901 -p 9501:8888 --name dev --ipc=host --gpus all --privileged -v /mnt/d/Dev:/workspace ubuntu_vnc:wsl2 /start.sh && bash
 
 # CONTAINER ID   IMAGE                                 COMMAND                  CREATED             STATUS                    PORTS                                               NAMES
 # 74945c7f67dd   ubuntu_vnc:wsl2                       "/start.sh"              About an hour ago   Up About an hour          0.0.0.0:25901->5901/tcp, 0.0.0.0:9501->8888/tcp     dev
